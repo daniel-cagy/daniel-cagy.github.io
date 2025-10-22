@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #0E0E0E;
+    color: #EDEDED;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    min-height: 100vh;
+}
+
+nav {
+    width: 100%;
+    background-color: #000000;
+    padding: 10px 0;
+    border-bottom: 1px solid darkgrey;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #EDEDED;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #6FB3FF;
+    transition: color 0.2s;
+}
+
+header {
+    height: 500px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+header h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    color: #EDEDED;
+    margin: 0;
+}
+
+section {
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid darkgrey;
+}
+
+main {
+    flex: 1;
+    width: 80%;
+    max-width: 1200px;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+span{
+    color: #4C9EFF;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    color: #EDEDED;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 28px;
+    color: #37BEB0;
+    margin-bottom: 18px;
+}
+
+h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 22px;
+    color: #EDEDED;
+    margin-bottom: 16px;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #EDEDED;
+    margin-bottom: 15px;
+}
+
+ul {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    color: #EDEDED;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+a {
+    color: #4C9EFF;
+    text-decoration: none;
+}
