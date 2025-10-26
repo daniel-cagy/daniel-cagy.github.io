@@ -25,12 +25,16 @@ nav ul {
     margin: 0;
     padding: 0;
 }
-
+nav ul li {
+    margin: 0 15px;
+}
 nav ul li a {
     color: #EDEDED;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
+    border: none;
+    padding-bottom: 8px;
 }
 
 nav ul li a:hover {
@@ -110,6 +114,12 @@ ul {
     margin-bottom: 15px;
 }
 
+ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 footer{
     text-align: center;
     font-size: 14px;
@@ -167,9 +177,4 @@ a {
     height: 24px;
     fill: currentColor;
     margin-right: 8px;
-}
-
-.contact {
-    display: flex;
-    align-items: center;
 }
