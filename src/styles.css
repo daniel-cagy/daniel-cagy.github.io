@@ -3,16 +3,15 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0;
-    background-color: #0E0E0E;
-    color: #EDEDED;
-    font-family: "Inter", sans-serif;
+    background-color: #1A1A1A;
+    color: #CCCCCC;
+    font-family: "JetBrains Mono", monospace;
     width: 100%;
     min-height: 100vh;
 }
 
 nav {
     width: 100%;
-    background-color: #000000;
     padding: 10px 0;
     border-bottom: 1px solid darkgrey;
     margin-bottom: 20px;
@@ -22,6 +21,7 @@ nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin: 0;
     padding: 0;
 }
@@ -31,14 +31,13 @@ nav ul li {
 nav ul li a {
     color: #EDEDED;
     text-decoration: none;
-    font-family: "Raleway", sans-serif;
     font-size: 18px;
     border: none;
     padding-bottom: 8px;
 }
 
 nav ul li a:hover {
-    color: #6FB3FF;
+    color: #14D19A;
     transition: color 0.2s;
 }
 
@@ -53,9 +52,7 @@ header {
 }
 
 header h1 {
-    font-family: "Montserrat", sans-serif;
     font-size: 48px;
-    color: #EDEDED;
     margin: 0;
 }
 
@@ -65,49 +62,49 @@ section {
     border-bottom: 1px solid darkgrey;
 }
 
+img {
+    border-radius: 50px;
+}
+
 main {
     flex: 1;
-    width: 80%;
+    width: 50%;
     max-width: 1200px;
     padding: 40px 20px;
     box-sizing: border-box;
 }
 
 span{
-    color: #4C9EFF;
+    color: #14D19A;
     font-weight: bold;
 }
 
 h1 {
-    font-family: "Montserrat", sans-serif;
     font-size: 36px;
-    color: #EDEDED;
     margin-bottom: 20px;
 }
 
 h2 {
-    font-family: "Raleway", sans-serif;
     font-size: 28px;
     margin-bottom: 18px;
+    color: #4C9EFF;
 }
 
 h3{
-    font-family: "Raleway", sans-serif;
     font-size: 22px;
-    color: #EDEDED;
     margin-bottom: 16px;
+    color: #EDEDED
 }
 
 p {
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #EDEDED;
     margin-bottom: 15px;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
 }
 
 ul {
-    font-family: "Inter", sans-serif;
     font-size: 16px;
     list-style-type: disc;
     padding-left: 20px;
@@ -116,14 +113,13 @@ ul {
 
 ul li a{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
 }
 
 footer{
     text-align: center;
     font-size: 14px;
-    color: #EDEDED;
     position: relative;
     bottom: 0;
     left: 0;
@@ -132,8 +128,9 @@ footer{
 
 footer main{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 80%;
     margin: 0 auto;
     padding: 20px 0;
     box-sizing: border-box;
@@ -172,7 +169,7 @@ a {
     text-decoration: underline;
 }
 
-.icon {
+svg {
     width: 24px;
     height: 24px;
     fill: currentColor;
