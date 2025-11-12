@@ -4,7 +4,7 @@ This is the source code for my personal portfolio website, where I showcase my p
 ## Features
 - Clean and modern design
 - Sections for projects, skills, and contact information
-- Responsive layout for various devices
+- Responsive layout for various devices (work in progress)
 
 ## Technologies Used
 - HTML5
@@ -14,13 +14,15 @@ This is the source code for my personal portfolio website, where I showcase my p
 ## Project Structure
 - `README.md`: This file
 - `LICENSE`: The license for the project
-- `src/`: Contains the source code of the website
+- `docs/`: Contains the source code of the website
   - `index.html`: The main HTML file for the website
   - `styles.css`: The CSS file for styling the website
   - `assets/`: Directory containing images used in the website
+  - `scripts/`: Directory containing JavaScript files for additional functionality
+  - `partials/`: Directory containing reusable HTML components
 
 ## Next Steps
-- Implement JavaScript functionality for interactivity
+- Improve responsiveness for mobile devices
 - Add more projects and update content regularly
 - Optimize for performance and SEO
 
